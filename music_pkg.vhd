@@ -24,6 +24,9 @@ package music_pkg is
     
     -- Durasi WAIT (dalam puluhan ms, contoh: 500 = 500ms)
     constant WAIT_HALF_SEC : integer := 500;
+
+    -- Custom Types
+    type freq_array is array (0 to 3) of INTEGER;
     
     -- Fungsi untuk menghitung Divisor
     function calc_divisor(freq : integer) return integer;
